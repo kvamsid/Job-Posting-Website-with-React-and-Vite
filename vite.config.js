@@ -8,7 +8,17 @@ export default defineConfig({
     port: 3000,
     proxy: {
       '/api': {
-        target: 'https://json-server-two-inky.vercel.app',
+        target: 'https://json-server-two-inky.vercel.ap',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/api/, ''),
+      },
+    },
+  },
+  server: {
+    port: 4173,
+    proxy: {
+      '/api': {
+        target: 'https://json-server-two-inky.vercel.ap',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, ''),
       },
