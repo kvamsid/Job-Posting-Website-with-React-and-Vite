@@ -13,15 +13,5 @@ export default defineConfig({
         rewrite: (path) => path.replace(/^\/api/, ''),
       },
     },
-  },
-  server: {
-    port: 4173,
-    proxy: {
-      '/api': {
-        target: 'https://json-server-two-inky.vercel.ap',
-        changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/api/, ''),
-      },
-    },
   }
 })
