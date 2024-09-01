@@ -133,7 +133,7 @@ const JobPage = ({ deleteJobSubmit }) => {
 };
 
 const jobLoader = async ({ params }) => {
-    const res = await fetch(`/api/jobs/${params.id}`);
+    const res = await fetch(`https://json-server-two-inky.vercel.app/jobs/${params.id}`);
     const data = res.json();
     return data;
 }

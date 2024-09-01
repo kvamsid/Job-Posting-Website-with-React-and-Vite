@@ -16,7 +16,7 @@ import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } 
 
 const App = () => {
   const addJob = async (newJob) => {
-    const res = await fetch('/api/jobs', {
+    const res = await fetch('https://json-server-two-inky.vercel.app/jobs', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -27,13 +27,13 @@ const App = () => {
   }
 
   const deleteJob = async (id) => {
-    const res = await fetch(`/api/jobs/${id}`, {
+    const res = await fetch(`https://json-server-two-inky.vercel.app/jobs/${id}`, {
       method: 'DELETE',
     });
     return;
   }
   const updateJob = async (job) => {
-    const res = await fetch(`/api/jobs/${job.id}`, {
+    const res = await fetch(`https://json-server-two-inky.vercel.app/jobs/${job.id}`, {
       method: 'PUT',
       headers: {
         'Content-Type': 'application/json'
