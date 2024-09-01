@@ -7,3 +7,5 @@ Single Page Application (SPA) and routing with React Router
 Data fetching and state management using useEffect
 Form handling and CRUD operations
 Static asset building for production
+
+Play With this here: https://job-posting-website-with-react-and-vite.vercel.app/
