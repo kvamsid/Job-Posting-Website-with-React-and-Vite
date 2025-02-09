@@ -24,8 +24,7 @@ The **Job Posting Website** is a comprehensive job listing application built usi
 - **Libraries & Tools**: React Router, React Toastify, Axios
 
 ## Deployment
-The application is deployed on **Vercel**. You can access it live at:
-[Job Posting Website](https://job-posting-website-with-react-and-vite.vercel.app/)
+The application is deployed on **Vercel**.
 
 ## Project Highlights
 - Demonstrates **React Best Practices**.
