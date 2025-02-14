@@ -3,8 +3,8 @@
 ## Overview
 The **Job Posting Website** is a comprehensive job listing application built using **React** and **Vite**. This project demonstrates the setup and configuration of React with Vite, styling using **Tailwind CSS**, and key React features such as hooks, components, and routing. Users can perform CRUD operations on job listings, including viewing, adding, editing, and deleting job posts. The application also integrates **JSON Server** for mock API interactions and **React Toastify** for user notifications.
 
-## Live Demo
-🚀 **Try it out here:** [Job Posting Website](https://job-posting-website-with-react-and-vite.vercel.app/)
+
+🚀 **Try it out here:** [![Live Demo](https://img.shields.io/badge/Live-Demo-blue)](https://job-posting-website-with-react-and-vite.vercel.app/)
 
 ![Job Posting Website](job_posting_website.png)
 
